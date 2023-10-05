@@ -609,7 +609,7 @@ img {
     margin: 0;
     padding: 0;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 }
 
 .sidebar {
@@ -719,5 +719,41 @@ img {
 
 .main-page-admin {
     display: flex;
-    margin-left: 250px;
+    margin-right: 600px;
+    margin-top: 70px;
+}
+
+.search-input-admin {
+    margin-top: 25px;
+    width: 500px;
+    height: 30px;
+    margin-left: 15px;
+    margin-right: 200px;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    border: 2px solid #17171760;
+    padding-left: 20px;
+}
+
+.btn-upload {
+    margin-top: 23px;
+    width: 100px;
+    height: 40px;
+    background-color: #5846ff70;
+    color: #fff;
+    border: inherit;
+    border-radius:15px;
+    -webkit-border-radius:15px;
+    -moz-border-radius:15px;
+    -ms-border-radius:15px;
+    -o-border-radius:15px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.btn-upload:hover {
+    background-color: #5846ff;
 }
