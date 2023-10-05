@@ -16,4 +16,21 @@
             <li class="sidebar-inactive"><img src="../img/document.svg" alt=""><a href="document.html">Documents</a></li>
         </ul>
         <p>Closion.</p>
-    </div> 
+    </div>
+    <div class="upload-page-admin">
+        <h1>Upload Auction</h1>
+        <a href="upload.html">
+            <button class="btn-upload">Auction</button>
+        </a>
+    </div>
+    <div class="upload-auction-container">
+        <form action="" method="POST">
+            <div class="upload-auction-content">
+                <input type="image"name="" id="input-image">
+                <input type="text"name="" id="" placeholder="Name">
+                <input type="date" name="" id="" >
+                <input type="number"name="" id="" placeholder="OpenBid">
+                <textarea id="big-input-text" placeholder="Description"></textarea>
+            </div>
+        </form>
+    </div>

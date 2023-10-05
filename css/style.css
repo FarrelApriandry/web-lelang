@@ -621,6 +621,7 @@ img {
     position: fixed;
     height: 100%;
     overflow-y: auto;
+    display:block;
 }
 
 .sidebar-header {
@@ -699,7 +700,7 @@ img {
     text-align: center;
     font-size: 13px;
     color: #17171780;
-    padding-top: 420px;
+    padding-top: 600px;
     display:flex;
     justify-content:center;
 }
@@ -719,8 +720,8 @@ img {
 
 .main-page-admin {
     display: flex;
-    margin-right: 600px;
     margin-top: 70px;
+    margin-left: 20rem;
 }
 
 .search-input-admin {
@@ -728,7 +729,7 @@ img {
     width: 500px;
     height: 30px;
     margin-left: 15px;
-    margin-right: 200px;
+    margin-right: 48rem;
     border-radius: 25px;
     -webkit-border-radius: 25px;
     -moz-border-radius: 25px;
@@ -740,7 +741,7 @@ img {
 
 .btn-upload {
     margin-top: 23px;
-    width: 100px;
+    width: 120px;
     height: 40px;
     background-color: #5846ff70;
     color: #fff;
@@ -750,10 +751,98 @@ img {
     -moz-border-radius:15px;
     -ms-border-radius:15px;
     -o-border-radius:15px;
-    font-size: 18px;
+    font-size: 16px;
     cursor: pointer;
 }
 
 .btn-upload:hover {
     background-color: #5846ff;
+}
+
+/* ------------------------code table auction------------------------ */
+
+.table-container {
+    display: flex;
+    margin-left: 20rem;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+.table-container-header {
+    width: 257px;
+    height: 40px;
+    border: 1px solid #17171770;
+    border-radius: 100px;
+    color: #17171770;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
+}
+
+.table-content th {
+    width: 257px;
+    height: 60px;
+    /* border: 1px solid #17171770; */
+    color: #17171770;
+    margin-top: 200px;
+}
+
+.table-content button {
+    width: 130px;
+    height: 40px;
+    background-color: #5846ff;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    color: #fff;
+    font-size: 16px;
+    border: 0px solid #5846ff;
+}
+
+.table-content button:hover {
+    background-color: #8678fe;
+}
+
+.upload-page-admin {
+    display: flex;
+    margin-top: 70px;
+    margin-left: 20rem;
+}
+
+.upload-page-admin h1{
+    margin-right: 74.55rem;
+}
+
+.upload-auction-content {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20.5rem;
+
+}
+
+#input-image {
+    padding-left: 0px;
+    width: 97.2rem;
+}
+
+.upload-auction-content input {
+    width: 95.5rem;
+    height: 50px;
+    padding-left: 20px;
+    margin-top: 30px;
+    font-family: var(--rubik);
+    font-size: 18px;
+}
+
+#big-input-text {
+    height: 200px;
+    width: 95.7rem;
+    margin-top: 20px;
+    font-family: var(--rubik);
+    font-size: 18px;
+    padding-left: 20px;
+    padding-top: 20px;
 }

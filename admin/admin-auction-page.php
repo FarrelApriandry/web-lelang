@@ -20,6 +20,26 @@
     <div class="main-page-admin">
         <h1>Auction</h1>
         <input class="search-input-admin" type="text" placeholder="Search">
-        <button class="btn-upload">+ add</button>
+        <a href="upload.html">
+            <button class="btn-upload">+ add</button>
+        </a>
     </div>
+    <table class="table-container">
+        <tr class="table-container-header">
+            <th>Image</th>
+            <th>Name</th>
+            <th>Upload Date</th>
+            <th>Open Bid</th>
+            <th>Description</th>
+            <th></th>
+        </tr>
+        <tr class="table-content">
+            <th>Image</th>
+            <th>Name</th>
+            <th>Upload Date</th>
+            <th>Open Bid</th>
+            <th>Description</th>
+            <th><button>More</button></th>
+        </tr>
+    </table>  
 </body>
